@@ -1,0 +1,30 @@
+.header {
+    background-color: #0B5351;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 50px; /* Increased height for better visibility */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);    display: flex;
+    justify-content: space-between; /* Ensures items are spaced evenly */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .headerIcon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px; /* Adjust spacing between icons */
+  }
+  
+  .icon-button:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  

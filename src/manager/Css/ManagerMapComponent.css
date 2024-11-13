@@ -1,0 +1,130 @@
+.map-container {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #ccc;
+  }
+  
+  .ol-popup {
+    position: absolute;
+    background-color: #ffffff; /* White background for contrast */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow for a more elevated look */
+    padding: 15px; /* Standard padding */
+    border-radius: 12px; /* Rounded corners */
+    border: 2px solid #3f51b5; /* Blue border */
+    bottom: 12px;
+    left: -50px;
+    min-width: 360px; /* Adjusted minimum width */
+    max-width: 400px; /* Max width */
+    max-height: 300px; /* Set max height */
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    font-size: 15px; /* Slightly larger font size for readability */
+    text-align: left; /* Left align text */
+    animation: fadeIn 0.3s ease; /* Fade-in animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+  }
+  
+  /* Popup hover effect */
+  .ol-popup:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+  }
+  
+  /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+  .ol-popup::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+    background: transparent; /* Background is transparent */
+  }
+  
+  /* Hide scrollbar for Firefox */
+  .ol-popup {
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  /* Popup arrow styles */
+  .ol-popup:after,
+  .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .ol-popup:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #3f51b5; /* Arrow color matches the border */
+    border-width: 10px;
+    left: 50%;
+    margin-left: -10px;
+  }
+  
+  .ol-popup:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #ffffff; /* Lighter shade for the arrow background */
+    border-width: 11px;
+    left: 50%;
+    margin-left: -11px;
+  }
+  
+  .ol-attribution {
+    display: none;
+  }
+  
+  /* Popup Content Styles */
+  .popup-content {
+    display: flex;
+    flex-direction: column; /* Column layout */
+  }
+  
+  .popup-row {
+    display: flex;
+    justify-content: space-between; /* Space between label and value */
+    align-items: center; /* Center align items vertically */
+    margin-bottom: 10px; /* Space between rows */
+  }
+  
+  /* Styling for the left side (label) */
+  .popup-label {
+    color: #3f51b5; /* Blue color for left side */
+    flex: 1; /* Take up available space */
+    font-weight: bold; /* Bold text for labels */
+  }
+  
+  /* Colon Styling */
+  .popup-colon {
+    color: #333; /* Dark gray for colon for contrast */
+    margin: 0 10px; /* Space around the colon */
+    width: 20px; /* Fixed width for colon to center it */
+    text-align: center; /* Center align the colon */
+  }
+  
+  /* Styling for the right side (value) */
+  .popup-value {
+    color: #555; /* Darker gray for right side for better readability */
+    flex: 2; /* Take up more space than the label */
+    font-weight: normal; /* Regular weight for values */
+  }
+  
+  /* Hover effect on rows */
+  .popup-row:hover {
+    background-color: #f5f5f5; /* Light gray background on hover */
+    border-radius: 6px; /* Rounded corners on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px); /* Slide in from above */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

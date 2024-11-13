@@ -1,0 +1,25 @@
+.LeaveRequestPage{
+  margin-left: 200px;
+}
+.ExportToExcel{
+  background-color: green;
+  margin-left: 40%;
+}
+.search-buttn{
+  margin-left: 10%;
+}
+.alignment{
+  border-radius: 10px;
+}
+.tableFirstRow th{
+  background-color: rgb(159, 166, 199);
+  text-align: center;
+}
+.tableFirstRow th,.tableFirstRow td{
+  /* border: 1px solid black; */
+  text-align: center;
+  
+}
+.lablesNames{
+  font-weight: bold;
+}

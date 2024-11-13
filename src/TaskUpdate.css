@@ -1,0 +1,345 @@
+.task-update-containerr {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-left: 210px;
+  margin-top: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow for a more elevated look */
+
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.notes-section {
+  margin-top: 30px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); /* Deeper shadow for a more elevated look */
+}
+
+.notes-section h3 {
+  color: black;
+  font-weight: bold;
+}
+
+.incident-summary-section h3 {
+  color: black;
+  font-weight: bold;
+}
+
+/* button {
+  width: 100px;
+} */
+
+.card-title {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.card-body {
+  padding: 10px;
+}
+.table th{
+background-color: #2c7873;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+}
+.task-update-container {
+padding: 20px;
+margin-right: 10px;
+margin-left: 250px;
+}
+
+.task-update-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.task-update-content {
+display: flex;
+gap: 20px;
+}
+
+.form-section {
+flex: 2;
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 8px;
+background-color: #f9f9f9;
+box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3); /* Deeper shadow for a more elevated look */
+
+}
+
+.notes-section {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 0px;
+}
+
+.task-update-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.add-note-form {
+  margin-top: 10px;
+}
+
+.notes-history {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.notesHeading {
+  background-color: #e6f2f0; /* Light greenish background */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #2c7873;
+  font-weight: bold;
+}
+
+.notes-cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 5px;
+}
+
+.note-card {
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #2c7873; /* Dark green left border */
+}
+
+.note-card p {
+  display: flex;
+  align-items: center;
+  margin: 2px 0;
+  font-size: 14px;
+  color: black;
+}
+
+.note-card p strong {
+  flex: 1;
+  text-align: right;
+  color: #2d8683;
+}
+
+.note-card .colon {
+  width: 10px;
+  text-align: center;
+  margin: 0 5px;
+  color: #2c7873;
+}
+
+.note-card span {
+  flex: 2;
+}
+
+.incident-summary-section {
+margin-top: 20px;
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 8px;
+background-color: #f9f9f9;
+box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3); /* Deeper shadow for a more elevated look */
+
+}
+.taskUpdateHeading{
+width: 100%;
+height: 34px;
+border-radius: 50px;
+background-color:#2c7873 ;
+color: white;
+font-weight: bold;
+padding-top: 4px;
+box-shadow: 2px 2px 5px gray;
+}
+.notesHeading{
+width: 100%;
+height: 27px;
+border-radius: 50px;
+background-color:#2c7873 ;
+color: white;
+font-weight: bold;
+padding-top: 2px;
+box-shadow: 2px 2px 5px gray;
+}
+.taskUpdateTabs{
+width: 100%;
+height: 37px;
+border-radius: 4px;
+background-color:#2c7873 ;
+color: white;
+font-weight: bold;
+padding-top: 5px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow for a more elevated look */
+}
+/* General styling for the gallery section */
+.gallery-section {
+padding: 20px;
+background-color: #f7f7f7;
+border-radius: 10px;
+box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3); /* Deeper shadow for a more elevated look */
+}
+
+/* Styling for each category section (Reported, WIP, Completed) */
+.gallery-category {
+margin-bottom: 40px;
+padding: 10px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 8px;
+box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3); /* Deeper shadow for a more elevated look */
+}
+
+/* Center heading and give it a stylish look */
+.gallery-category h5 {
+font-family: 'Arial', sans-serif;
+font-weight: bold;
+color: #2d8683;
+letter-spacing: 1px;
+padding: 10px;
+border-bottom: 2px solid #ddd;
+display: inline-block;
+}
+
+/* Image gallery styling */
+.image-gallery {
+display: flex;
+justify-content: space-evenly; /* Space images evenly */
+flex-wrap: wrap; /* Wrap images if the row is too long */
+gap: 15px; /* Space between images */
+margin-top: 15px;
+}
+
+/* Uniform image size and styling */
+.image-gallery img {
+width: 130px;
+height: 150px;
+object-fit: cover; /* Ensure the image fits without distortion */
+border-radius: 8px;
+border: 2px solid #ddd; /* Border for images */
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect to add more interaction to images */
+.image-gallery img:hover {
+transform: scale(1.05); /* Slight zoom on hover */
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+cursor: pointer;
+}
+
+/* Align image sections neatly and consistently */
+.gallery-category img {
+margin-bottom: 10px;
+}
+
+/* Mobile responsiveness: Stack images on smaller screens */
+@media (max-width: 768px) {
+.image-gallery {
+  flex-direction: column; /* Stack images vertically on mobile */
+  align-items: center;
+}
+
+.image-gallery img {
+  width: 90%; 
+  height: auto; 
+}
+}
+
+.galleryH5 {
+text-align: center;
+color: #4CAF50;
+}
+.tabs-container {
+  background-color: #f0f8f0;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+  padding-bottom: 0px;
+  width: 100%;                  /* Ensure full-width container */
+  box-sizing: border-box;        /* Includes padding in width */
+}
+
+.nav-tabs {
+  display: flex;                 /* Inline tabs */
+  justify-content: space-between; /* Spread tabs across the line */
+  border-bottom: 2px solid #2d8683;
+}
+
+.nav-tabs .nav-item {
+  flex: 1;                       /* Even spacing for each tab */
+  text-align: center;            /* Center-align text in each tab */
+  margin-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: #2d8683;
+  font-weight: bold;
+  padding: 10px;                 /* Reduced padding if necessary */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #2d8683;
+}
+.material-tabs {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.material-tabs button {
+  font-family: 'Arial', sans-serif;
+  background-color: transparent;
+  border: none;
+  color: #2d8683;
+  padding: 4px 8px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.material-tabs button:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.material-tabs button.active {
+  background-color: #2d8683; /* Active tab color */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for active tab */
+}
+
+.material-tabs button:focus {
+  outline: none; /* Remove focus outline */
+}

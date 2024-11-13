@@ -1,0 +1,31 @@
+.sitesPage{
+    margin-left: 210px;
+    padding: 20px;
+} 
+  .formContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  .create-site-btn,
+.export-btn-site {
+  width: 180px;
+  height: 34px;
+  margin-left: 190px;
+  border-radius: 50px;
+  background-color: purple;
+  text-align: center;
+  justify-content: center;
+  padding-top: 4px;
+  box-shadow: 2px 2px 5px gray;
+
+}
+.export-btn-site{
+  background-color: green;
+}

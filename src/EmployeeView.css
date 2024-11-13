@@ -1,0 +1,38 @@
+.employee-page {
+    padding: 20px;
+    margin-left: 210px;
+  }
+
+.view-header {
+    background-color: #2c7873;
+    color: white;
+    text-align: center;
+    font-weight:700;
+    border-radius: 30px;
+    height: 36px;
+    align-items: center;
+    font-size: large;
+}
+
+.employee-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.button-div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.button{
+    justify-content: center;
+    height: 30px;
+    width: 75px;
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    box-shadow: black;
+}

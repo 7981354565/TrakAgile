@@ -1,0 +1,9 @@
+.dashboard-card-employee-container{
+    margin-left: 220px;
+}
+.cardEmployeeNameSearch{
+    border-radius: 20px  0px 0px 20px;
+}
+.cardEmployeeNameSearchIcon{
+    border-radius: 0px 20px 20px 0px ;
+}

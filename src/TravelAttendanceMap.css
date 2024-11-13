@@ -1,0 +1,13 @@
+.ol-full-screen {
+    top: 10px;
+    right: 10px;
+    background-color: #2c7873; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px; /* Padding inside the button */
+    font-size: 18px; /* Font size */
+}
+
+.ol-full-screen:hover {
+    background-color: #1c5553; /* Darker shade on hover */
+}

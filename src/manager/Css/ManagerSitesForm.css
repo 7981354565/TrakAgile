@@ -1,0 +1,82 @@
+.container {
+    /* background-color: #e0f7fa; */
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 195px;
+  }
+  .table {
+    margin-top: 10px;
+  }
+  .save-cancel {
+    margin-top: 10px;
+  }
+  .sites-page{
+    margin-top: -70px;
+  }
+  .contactInformation, .siteInformation, .equipments{
+    width: 100%;
+    height: 30px;
+    background-color: #2c7873;
+    color: white;
+    border-radius: 50px;
+  }
+  /* styles.css */
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  padding-right: 2.5rem; /* Adjust this value based on icon size */
+  border-radius: 0.25rem; /* Optional: for rounded corners */
+}
+
+.custom-select::after {
+  content: '▼'; /* Unicode for down arrow */
+  font-size: 0.7rem; /* Adjust the font size */
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  padding-top: 1.4rem;
+}
+.firstRow{
+  text-align: center;
+}
+.custom-selectt-containerr {
+  position: relative;
+}
+
+.custom-selectt {
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 width%3D%2716%27 height%3D%2716%27 fill%3D%27%23000000%27 class%3D%27bi bi-caret-down-fill%27 viewBox%3D%270 0 16 16%27%3E%3Cpath d%3D%27M7.247 11.14 2.451 5.658C1.885 5.042 2.345 4 3.204 4h9.592c.86 0 1.32 1.042.754 1.658l-4.796 5.482a1 1 0 0 1-1.508 0z%27/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding-right: 30px;
+}
+.mt-3 th{
+  background-color: #2c7873;
+  border: 1px solid #ddd;
+  color: white;
+  text-align: center;
+}
+.mt-3 th,
+.mt-3 td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.sitesContactFormTable th,
+.sitesContactFormTable td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+ .sitesContactFormTable thead th {
+  background-color: #2c7873;
+  color: white;
+  text-align: center;
+}
